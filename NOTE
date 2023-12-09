@@ -1,5 +1,5 @@
 
 - docker build -t salogic .
 
-- docker run -it --network [DOCKER_NETWORK] salogic sh -c "python listen.py"
-- docker run -it --network [DOCKER_NETWORK] salogic sh -c "python send.py"
+- docker run -it --network [DOCKER_NETWORK] salogic sh -c "python listen.py [ARGS]"
+- docker run -it --network [DOCKER_NETWORK] salogic sh -c "python send.py [ARGS]"
